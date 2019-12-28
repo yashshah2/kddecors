@@ -116,10 +116,10 @@ color: #4c4c4c;
 line-height: 28px;
 }
 .txt-rightside{text-align:right;}
-/*-- header --*/ 
+/*-- header --*/
 .header-outs {
 position: relative;
-background: url(../images/b2.jpg)no-repeat center;
+background: url(../images/1.jpg)no-repeat center;
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -127,6 +127,7 @@ background-size: cover;
 -ms-background-size: cover;
 min-height: 800px;
 }
+
 .header-w3layouts {
 position: absolute;
 padding:1em 3em 1em;
@@ -140,9 +141,16 @@ background:transparent;
 display: none;
 }
 /* Giving a background-color to the nav container. */
-nav { 
+nav {
 margin:0;
 padding: 0;
+
+}
+logo1 {
+  float: left;
+  margin: 10px 15px 15px 10px;
+  position: relative;
+
 }
 #logo h1 a {
 float: left;
@@ -188,19 +196,24 @@ letter-spacing: 1px;
 }
 nav ul li ul li:hover { background: #f8f9fa; }
 /* Background color change on Hover */
-nav a:hover { 
-color:#a3c962;	
+nav a:hover {
+color:#a3c962;
 }
-.menu li.active  a{ 
-color:#a3c962;	
+.menu li.active  a{
+color:#a3c962;
+}
+.menu a {
+  color: black;
+  font-weight: bold;
+  font-size:18px;
 }
 /* Hide Dropdowns by Default
 * and giving it a position of absolute */
 nav ul ul {
 display: none;
-position: absolute; 
+position: absolute;
 /* has to be the same number as the "line-height" of "nav a" */
-top: 30px; 
+top: 30px;
 background: #fff;
 padding: 10px;
 }
@@ -220,15 +233,15 @@ color: #333;
 padding: 5px 10px;
 display: block;
 }
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
 * We move the 2nd and 3rd etc tier dropdowns to the left
 * by the amount of the width of the first tier.
 */
 /*nav ul ul ul li {
 position: relative;
 top:-60px;
-/* has to be the same number as the "width" of "nav ul ul li" */ 
-/*left:170px; 
+/* has to be the same number as the "width" of "nav ul ul li" */
+/*left:170px;
 } */
 /* Change ' +' in order to change the Dropdown symbol */
 li > a:only-child:after { content: ''; }
@@ -306,13 +319,13 @@ background-color: transparent;
 nav ul li ul li .toggle,
 nav ul ul a,
 nav ul ul ul a{
-padding:14px 20px;	
+padding:14px 20px;
 color:#FFF;
-font-size:17px; 
+font-size:17px;
 }
 nav ul li ul li .toggle,
 nav ul ul a {
-background-color: #212121; 
+background-color: #212121;
 }
 /* Hide Dropdowns by Default */
 nav ul ul {
@@ -334,7 +347,7 @@ padding: 0;
 }
 nav ul ul ul li {
 position: static;
-/* has to be the same number as the "width" of "nav ul ul li" */ 
+/* has to be the same number as the "width" of "nav ul ul li" */
 }
 }
 @media all and (max-width : 330px) {
@@ -343,18 +356,19 @@ display:block;
 width: 94%;
 }
 }
-/*-- banner --*/ 
+/*-- banner --*/
 .slide-info {
 padding:19em 0 0;
 }
 .banner-top-grid h4 {
 font-size:30px;
-color: #fff;
-letter-spacing:2px;
+color: #B4FF2F;
+font-weight: bold;
+letter-spacing:3px;
 }
 .slide-info h5 {
 font-size: 46px;
-color: #fff;
+color: #B4FF2F;
 font-weight: 700;
 letter-spacing:2px;
 margin:13px 0px 16px;
@@ -670,7 +684,7 @@ background: url(../images/b3.jpg) no-repeat 0px 0px;
 .team-img img {
     width: 100%;
 }
-.icons-client ul li span,.icons ul li a span{  
+.icons-client ul li span,.icons ul li a span{
 margin-right: 0.5em;
 font-size: 15px;
 width: 35px;
@@ -685,7 +699,7 @@ transition: 0.5s all;
 -moz-transition: 0.5s all;
 -o-transition: 0.5s all;
 -ms-transition: 0.5s all;}
-.icons-client ul li span:hover,.icons ul li a span:hover{  
+.icons-client ul li span:hover,.icons ul li a span:hover{
 color:#a3c962;}
 /*--//team-- */
 /*--popup-- */
@@ -757,7 +771,7 @@ overflow: auto;
 .content iframe {
 width: 100%;
 height: 246px;
-border:none;  
+border:none;
 }
 /*--//popup-- */
 /*-- counter--*/
@@ -971,7 +985,7 @@ font-size: 31px;
 @media(max-width:1366px){
 .grid-wthree-service {
 padding: 1.7em 1.3em;
-}	
+}
 h6.title-top-txt {
 font-size: 19px;
 }
@@ -1024,7 +1038,7 @@ font-size: 14px;
 @media(max-width:1080px){
 .slide-info-txt p {
 padding: 0em 7em;
-}	
+}
 .banner-top-grid h4 {
 font-size: 27px;
 }
@@ -1077,7 +1091,7 @@ font-size: 33px;
 }
 }
 @media(max-width:1024px){
-.read-buttn a, .view-buttn a, 
+.read-buttn a, .view-buttn a,
 button.sent-butnn {
 letter-spacing: 1px;
 }
@@ -1111,7 +1125,7 @@ width:60%;
 @media(max-width:991px){
 .slide-info-txt p {
 padding: 0em 4em;
-}	
+}
 .header-outs {
 min-height: 550px;
 }
@@ -1159,7 +1173,7 @@ margin-top: 26px;
 @media(max-width:900px){
 nav ul li a {
 padding: 7px 13px 0px;
-}	
+}
 .sub-title-mid h2 {
 font-size: 21px;
 }
@@ -1259,7 +1273,7 @@ top: 111px;
 @media(max-width:767px){
 .slide-info-txt p {
 padding: 0em 0em;
-}	
+}
 .sub-title-mid h2 {
 font-size: 20px;
 }
@@ -1299,7 +1313,7 @@ width: 67%;
 @media(max-width:736px){
 .slide-info h5 {
 font-size: 32px;
-}	
+}
 .banner-top-grid h4 {
 font-size: 21px;
 letter-spacing: 1px;
@@ -1540,7 +1554,7 @@ height: 163px;
 }
 @media(max-width:375px){
 nav ul li a {
-font-size: 14px;	
+font-size: 14px;
 }
 .grid-wthree-service {
 padding: .9em .9em;

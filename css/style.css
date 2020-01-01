@@ -15,7 +15,7 @@ padding: 0;
 margin: 0;
 background: #fff;
 letter-spacing: 1px;
-font-family: 'Open Sans', sans-serif;
+font-family: "Comic Sans MS", "Comic Sans", cursive;;
 }
 body a {
 outline: none;
@@ -41,7 +41,7 @@ transition: 0.5s all;
 -o-transition: 0.5s all;
 -ms-transition: 0.5s all;
 letter-spacing: 1px;
-font-family: 'Open Sans', sans-serif;
+font-family: "Comic Sans MS", "Comic Sans", cursive;;
 }
 select,
 input[type="email"],
@@ -50,7 +50,7 @@ input[type=password],
 input[type="button"],
 input[type="submit"],
 textarea {
-font-family: 'Open Sans', sans-serif;
+font-family: "Comic Sans MS", "Comic Sans", cursive;;
 transition: 0.5s all;
 -webkit-transition: 0.5s all;
 -moz-transition: 0.5s all;
@@ -67,13 +67,13 @@ h6 {
 margin: 0;
 padding: 0;
 letter-spacing: 1px;
-font-family: 'Playfair Display', serif;
+font-family:  "Comic Sans MS", "Comic Sans", cursive;
 }
 p {
 margin: 0;
 padding: 0;
 letter-spacing: 1px;
-font-family: 'Open Sans', sans-serif;
+font-family: "Comic Sans MS", "Comic Sans", cursive;;
 }
 ul {
 margin: 0;
@@ -365,6 +365,7 @@ font-size:30px;
 color: #0C1C03;
 font-weight: bold;
 letter-spacing:3px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .slide-info h5 {
 font-size: 46px;
